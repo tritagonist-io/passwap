@@ -28,21 +28,23 @@ needs to be updated.
 
 ### Algorithms
 
-| Algorithm      | Identifiers                                                        | Secure             |
-| -------------- | ------------------------------------------------------------------ | ------------------ |
-| [argon2][1]    | argon2i, argon2id                                                  | :heavy_check_mark: |
-| [bcrypt][2]    | 2, 2a, 2b, 2y                                                      | :heavy_check_mark: |
-| [md5-crypt][3] | 1                                                                  | :x:                |
-| [md5 plain][4] | Hex encoded string                                                 | :x:                |
-| [scrypt][5]    | scrypt, 7                                                          | :heavy_check_mark: |
-| [pbkpdf2][6]   | pbkdf2, pbkdf2-sha224, pbkdf2-sha256, pbkdf2-sha384, pbkdf2-sha512 | :heavy_check_mark: |
+| Algorithm       | Identifiers                                                        | Secure             |
+| --------------- | ------------------------------------------------------------------ | ------------------ |
+| [argon2][1]     | argon2i, argon2id                                                  | :heavy_check_mark: |
+| [bcrypt][2]     | 2, 2a, 2b, 2y                                                      | :heavy_check_mark: |
+| [md5-crypt][3]  | 1                                                                  | :x:                |
+| [md5 plain][4]  | Hex encoded string                                                 | :x:                |
+| [sha2-crypt][5] | 5,6                                                                | :heavy_check_mark: |
+| [scrypt][6]     | scrypt, 7                                                          | :heavy_check_mark: |
+| [pbkpdf2][7]    | pbkdf2, pbkdf2-sha224, pbkdf2-sha256, pbkdf2-sha384, pbkdf2-sha512 | :heavy_check_mark: |
 
 [1]: https://pkg.go.dev/github.com/zitadel/passwap/argon2
 [2]: https://pkg.go.dev/github.com/zitadel/passwap/bcrypt
 [3]: https://pkg.go.dev/github.com/zitadel/passwap/md5
 [4]: https://pkg.go.dev/github.com/zitadel/passwap/md5plain
-[5]: https://pkg.go.dev/github.com/zitadel/passwap/scrypt
-[6]: https://pkg.go.dev/github.com/zitadel/passwap/pbkdf2
+[5]: https://pkg.go.dev/github.com/zitadel/passwap/sha2
+[6]: https://pkg.go.dev/github.com/zitadel/passwap/scrypt
+[7]: https://pkg.go.dev/github.com/zitadel/passwap/pbkdf2
 
 ### Encoding
 
